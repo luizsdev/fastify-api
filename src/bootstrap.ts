@@ -1,4 +1,4 @@
-import fastify, { FastifyRequest } from 'fastify';
+import fastify from 'fastify';
 import fastifyAcceptsSerializer from '@fastify/accepts-serializer';
 import router from './adapters/routers/User/userRouter';
 
